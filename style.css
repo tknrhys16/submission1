@@ -64,15 +64,28 @@ h3{
 }
 footer{
   height: 50px;
+  width: 100%;
   background-color: #AAAAAA
 }
 @media screen and (max-width:768px) {
+  header{
+　margin-bottom: 50px;
+  width: 100%;
+}
+  footer{
+  width: 100%;
+  margin-top: 50px;
+  }
   main {
   width: 100%;
   margin: 50px auto;
 }
 .step1{
   width: 90%;
+  margin: 20px auto;
+  float:none;
+}
+.step1:last-child {
   margin: 20px auto;
 }
 .step1img{
